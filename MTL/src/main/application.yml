@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driverClassName : com.mysql.cj.jdbc.Driver
+    url : jdbc:mysql://localhost:3306/MTL?serverTimezone=UTC&characterEncoding=UTF-8 
+    username :   #아이디
+    password : #비밀번호
+    
+server:
+  port : 8088
